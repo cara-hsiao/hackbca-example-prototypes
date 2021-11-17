@@ -9,7 +9,7 @@ These are prototypes for the event-related pages for the hackbca example webapp.
 The prototypes are built with the Materialize Framework (https://materializecss.com/)
 
 
-## Working through this example:
+## Working through this example: 
 
 If using VSCode, install the Live Server extension. 
 Then, you can easily view any HTML file on your browser by right clicking and choosing "Open with Live Server."
