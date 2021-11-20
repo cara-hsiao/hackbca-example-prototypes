@@ -52,9 +52,30 @@
                          </div>
                          <span class="card-title"><h1>Personal Website</h1></span>
                      </div>
+                        <table class="centered responsive-table">
+                          <tbody>
+                            <tr>
+                              <td class="blue-text clickable" onclick="location.href='/projects/1.html'"> Personal Page</td>
+                              <td> Webpage </td>
+                              <td><a href='?filter=date:05-02-2021'>September 23 </a> 11:59 PM</td>
+                              <td>45m</td>
+                            <!-- ADMIN ONLY BUTTONS -->
+
+                            <td nowrap>
+                              
+                                <!-- Alternatively to going to a new page, trigger a modal ??-->
+                                <a class="btn-floating waves-effect waves-light green lighten-1" href="/eventform.html"><i class="material-icons">edit</i></a>
+                                <a class="btn-floating waves-effect waves-light red" onclick='confirmDelete("Opening Ceremony","{{ event_id}}", "/events.html")'><i class="material-icons">delete</i></a>
+
+                            </td>
+                            
+
+                        </tbody>
+                        </table>
                      <div class="card-content">
+                      
  
-                         <div class="container event-description">A personal website for a student: https://cara-hsiao.github.io/Personal-Page/ </div>
+                         <div class="container event-description">A HTML based personal website for a student: https://cara-hsiao.github.io/Personal-Page/ </div>
                          
                          
                          <!-- TODO: Add a scrollable table (or series of cards??) listing the attendees who are interested -->
