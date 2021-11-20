@@ -56,9 +56,29 @@
                          
                      </div>
                      <div class="card-content">
+                      <table class="centered responsive-table">
+                        <tbody>
+                          <tr>
+                        
+                            <td class="blue-text clickable" onclick="location.href='/projects/2.html'"> Piggy Bank</td>
+                          <td> Web Application </td>
+                          <td><a href='?filter=date:05-02-2021'>November 12 </a> 11:59 PM</td>
+                          <td>360m</td>
+                          <!-- ADMIN ONLY BUTTONS -->
+  
+                          <td nowrap>
+                            
+                              <!-- Alternatively to going to a new page, trigger a modal ??-->
+                              <a class="btn-floating waves-effect waves-light green lighten-1" href="/eventform.html"><i class="material-icons">edit</i></a>
+                              <a class="btn-floating waves-effect waves-light red" onclick='confirmDelete("Opening Ceremony","{{ event_id}}", "/events.html")'><i class="material-icons">delete</i></a>
+  
+                          </td>
+  
+                      </tbody>
+                       </table>
  
                          
-                         <div class="container event-description">An automatic coin counting piggy bank app with a removable history and adjustable balance. Email carhsi22@bergen.org to request a copy of the files.</div>
+                         <div class="container event-description">An automatic coin counting piggy bank app with a removable history and adjustable balance using HTML, CSS, and Javascript. Email carhsi22@bergen.org to request a copy of the files.</div>
                          
                          
                          <!-- TODO: Add a scrollable table (or series of cards??) listing the attendees who are interested -->
